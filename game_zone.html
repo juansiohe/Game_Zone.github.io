@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Game Zone</title>
+    <style>
+        .centro {
+            display: flex;
+            justify-content: center;
+        }
+
+        .intro {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            background-color: black;
+            color: white;
+            
+        }
+
+        .texto {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            text-align: center;
+            color: white;
+        }
+
+        .t-pre {
+            font-size: 23px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(0, 69, 213);
+        }
+
+        .fondo {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(0, 69, 213);
+        }
+
+        .fondo2 {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(231, 0, 20);
+        }
+
+        h1 {
+            font-family: "mi fuente", sans-serif;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 40px;
+            background-color: black;
+        }
+
+        footer {
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            font-family: "otra fuente", sans-serif;
+            margin: 20px 0;
+            padding: 10px;
+            overflow: auto;
+        }
+
+        .t-articulo {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .fuente-t {
+            font-family: "mi fuente", sans-serif;
+        }
+
+        .Shadow {
+            text-shadow: rgba(190, 209, 200, 0.993) 6px 0;
+            color: rgb(11, 72, 122);
+        }
+
+        #titulo {
+            text-shadow: grey 5px 0;
+            color: rgba(40, 9, 216, 0.993);
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            font-family: "mi fuente";
+            background-color: rgb(191, 243, 243);
+        }
+        
+        .int-1{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        .int-2 {
+            display: inline;
+            margin-right: 20px;
+            font-size: 30px;
+            font-family: "mi fuente";
+            text-shadow: grey 3px 0;
+            color:white
+        }
+        .i{
+            margin: 0;
+        } 
+        ul{
+            margin: 0;
+        }
+        .play{
+            background-color: rgb(21, 21, 241);
+        }
+        .N{
+            background-color: rgb(233, 29, 29);
+        }
+        .Xbox{
+            background-color: rgb(30, 173, 30);
+        }
+        #oro{
+            background-color: gold;
+        }
+        #plata{
+            background-color: silver;
+        }
+        #bronce{
+            background-color: rgb(205, 127, 50);
+        }
+        @font-face {
+            font-family: "mi fuente";
+            src: url(BrunoAceSC-Regular.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "otra fuente";
+            src: url(Silkscreen-Regular.ttf) format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo" class="centro fuente-t">Game Zone <br> &nbsp;</h1>
+    
+    <nav class="int-1 int-2">
+        <ul class="int-1 i">
+          <ol class="int-2 i"><a href="#">Artículos</a></ol>
+          <ol><a href="vj">Videojuegos</a></ol>
+          <ol><a>Deportes</a></ol>
+          <ol><a href="TOP">TOP 10 consolas</a></ol>
+        </ul>
+      </nav>
+    
+      <section>
+        <article>
+            <header>
+                <h2 class="fuente-t Shadow i" >¿Quiénes somos? <br> &nbsp;</h2>
+                <p class="t-pre t intro i">Somos un grupo de trabajo que hace artículos sobre videojuegos y en ocasiones de fútbol, y tenemos <strong>tres pilares</strong></p>
+                <ul class="t-pre intro">
+                    <li>Veracidad en la información</li>
+                    <li>Artículos entretenidos</li>
+                    <li>Contenido de calidad <br> &nbsp;</li>
+                </ul>
+                <h2 class="fuente-t Shadow i">Temas</h2>
+                <ul class="t-pre intro i">
+                    <li><a href="#vj">Videojuegos</a> <a href="#algo">(1)</a></li>
+                    <li><a href="#deportes">Deportes</a></li>
+                </ul>
+            </header>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <header>
+                <h2 class="centro fuente-t Shadow i">Artículos</h2>
+                <h2 id="vj" class="fuente-t Shadow i">Videojuegos</h2>
+                <h3 style="color: white;" class="centro fondo fuente-t t-articulo">¿Por qué los videojuegos son cada vez más pesados?</h3>
+                <img src="Portada (Marzo) .png" width="400" id="imagen" class="centro contenedor-imagen">
+                <p class="texto centro fondo t-pre">Vamos a ver las razones, posibles soluciones y la tendencia que ha tenido con el pasar del tiempo</p>
+                <a href="¿Por qué los videojuegos son cada vez más pesados.pdf" class="texto centro fondo t-pre"><strong>Leer artículo</strong></a>
+            </header>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <header>
+                <h3 style="color: white;" class="centro fondo2 fuente-t t-articulo" id="algo">Avances, características nuevas, juegos, precios. Todo lo nuevo de la Nintendo Switch 2</h3>
+                <img src="Portada (Abril).jpg" width="400" id="imagen" class="centro contenedor-imagen fondo2">
+                <p class="texto centro fondo2 t-pre">Un resumen completo de todo lo anunciado por Nintendo. Además, ¿qué pasará con los usuarios de la primera Switch?</p>
+                <a href="Avances, características nuevas, juegos, precios. Todo lo nuevo de la Nintendo Switch 2.pdf" class="texto centro fondo2 t-pre"><strong>Leer artículo</strong></a>
+            </header>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <header>
+                <h3 style="color:black" class="centro fuente-t t-articulo i" id="TOP"><br> &nbsp;Top 10 consolas más vendidas de la historia</h3>
+            </header>
+            <table>
+                <tr>
+                    <th> &nbsp;</th>
+                    <th>Nombre</th>
+                    <th>Compañía</th>
+                    <th>Año de lanzamiento</th>
+                    <th>Año de descontinuación</th>
+                    <th>Unidades vendidas</th>
+                </tr>
+                <tr>
+                    <td id="oro"> 1 </td>
+                    <td class= "play">PlayStation 2</td>
+                    <td class= "play">Sony</td>
+                    <td>2000</td>
+                    <td>2013</td>
+                    <td>160 M</td>
+                </tr>
+                <tr>
+                    <td id="plata"> 2 </td>  
+                    <td class="N">Nintendo DS</td>
+                    <td class="N">Nintendo</td>
+                    <td>2004</td>
+                    <td>2013</td>
+                    <td>154M</td>
+                </tr>
+                <tr>
+                    <td id="bronce"> 3 </td>
+                    <td class="N">Nintendo Switch</td>
+                    <td class="N">Nintendo</td>
+                    <td>2017</td>
+                    <td> - </td>
+                    <td>150,8 M</td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td class="N" >Game Boy</td>
+                    <td class="N" >Nintendo</td>
+                    <td>1989</td>
+                    <td>2003</td>
+                    <td>118,69 M</td>
+                </tr>
+                <tr>
+                    <td> 5 </td>
+                    <td class= "play"> PlayStation 4</td>
+                    <td class= "play">Sony</td>
+                    <td>2013</td>
+                    <td>2021(Versión original) <br>Versión Slim sigue disponible</td>
+                    <td>117,2 M</td>
+                </tr>
+                <tr>
+                    <td> 6 </td>
+                    <td class= "play">PlayStation</td>
+                    <td class= "play">Sony</td>
+                    <td>1994</td>
+                    <td>2006</td>
+                    <td>102,4 M</td>
+                </tr>
+                <tr>
+                    <td> 7 </td>
+                    <td class="N"> Wii</td>
+                    <td class="N">Nintendo</td>
+                    <td>2006</td>
+                    <td>2013</td>
+                    <td>101,63 M</td>
+                </tr>
+                <tr>
+                    <td> 8 </td>
+                    <td class= "play"> PlayStation 3</td>
+                    <td class= "play">Sony</td>
+                    <td>2006</td>
+                    <td>2017</td>
+                    <td>87,4 M</td>
+                </tr>
+                <tr>
+                    <td> 9 </td>
+                    <td class="Xbox">Xbox 360</td>
+                    <td class="Xbox">Microsoft</td>
+                    <td>2005</td>
+                    <td>2016</td>
+                    <td>86 M (aprox)</td>
+                </tr>
+                <tr>
+                    <td> 10 </td>
+                    <td class="N">Game Boy Advance</td>
+                    <td class="N">Nintendo</td>
+                    <td>2001</td>
+                    <td>2010</td>
+                    <td>81,51 M</td>
+                </tr>                  
+            </table>
+        </article>
+    </section>
+
+    <aside class="t-pre">
+        <blockquote>Anuncio</blockquote>
+        <blockquote>Anuncio</blockquote>
+        <blockquote>Anuncio</blockquote>
+    </aside>
+
+    <footer>
+        Síguenos en redes sociales como @game_zone 
+    </footer>
+</body>
+</html>
+
+
+    
